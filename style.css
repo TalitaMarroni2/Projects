@@ -1,49 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 
-header{
+header {
     background-color: palegoldenrod;
-    padding: 1em;  
-   
+    padding: 1em;
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav a{
+nav a {
     text-decoration: none;
-    color:brown;
+    color: brown;
     padding: 0.5em;
     transition: 0.3s;
-    
-}:hover{
+
+}
+
+:hover {
     color: #111;
 }
 
-main{
+main {
     display: flex;
 }
-main #img{
+
+main #img {
     width: 60%;
 
 }
- 
-.container{
-    margin: 10px;
+
+.container {
+    width: 90%;
+    margin: 5em 0em 0px 2em;
     border: 1px solid black;
     padding: 1em;
     align-items: center;
+    text-align: center;
 }
 
-.container button{
-    max-width: 40%;
+.container button {
     padding: 0.30em;
     color: brown;
     background-color: transparent;
@@ -51,30 +56,39 @@ main #img{
     border-radius: 5px;
 }
 
+.container h3 {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.container p {
+    padding-bottom: 10px;
+}
 
 
 
-footer{
+footer {
     background: rgb(228, 221, 150);
     padding: 1em;
 }
 
-.footerBtn{
-    color:brown;
+.footerBtn {
+    color: brown;
     padding: 10px;
     border: 1px solid brown;
     opacity: 0.7;
     background-color: blanchedalmond;
 }
 
-#socialmedias{
+#socialmedias {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;  
+    padding: 1em;
 }
-#footerParagraph{
+
+#footerParagraph {
     font-size: 30px;
     color: brown;
     display: flex;
@@ -83,6 +97,6 @@ footer{
     padding: 20px;
 }
 
-#socialmedias a{
+#socialmedias a {
     padding-left: 10px;
 }
